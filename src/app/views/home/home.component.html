@@ -1,0 +1,171 @@
+<!-- CARROSSEL BANNER BOOTSTRAP-->
+<div id="carouselExampleDark" class="carousel carousel-dark slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+    <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+    </div>
+    <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="5000">
+        <img src="assets/imagens/banner1_.jpg" height="500" class="d-block w-100 bannerS" alt="Playstation 5">
+        <div class="carousel-caption d-none d-md-block">
+        <h3>Produto a pronta entrega! Corre que são poucas unidades!</h3>
+        </div>
+    </div>
+    <div class="carousel-item" data-bs-interval="5000">
+        <img src="assets/imagens/banner2_.jpg" height="500" class="d-block w-100 bannerS" alt="Xbox Series S & X">
+        <div class="carousel-caption d-none d-md-block">
+        <h3>Produto a pronta entrega! Corre que são poucas unidades!</h3>
+        </div>
+    </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+</button>
+<button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+</button>
+</div> <!-- FIM DO CARROSSEL BANNER BOOTSTRAP -->
+<!-- Novidades -->
+<section class="container-grid">
+<div class="linha">
+    <img class="divSecao" src="assets/imagens/DivNov.png" alt="Novidades">
+</div>
+<div id="blocoNovidades" class="posicionamento3 Desktop">
+</div>
+</section>
+<!-- CARROSSEL TABLET-->
+<div class="carouselTablet">
+    <div id="carouselExampleDark2" class="carousel carousel-dark slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark2" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="5000">
+                <img src="assets/imagens/1-768nvd (1).png" class="d-block w-100 bannerS2">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="5000">
+                <img src="assets/imagens/2-768nvd.png" class="d-block w-100 bannerS2">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="assets/imagens/3-768nvd.png" class="d-block w-100 bannerS2">
+                <div class="carousel-caption d-none d-md-block">
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark2" data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+</div>
+<!-- FIM DO CARROSSEL TABLET -->
+<!-- Destaques -->
+    <section class="novidades container-grid">
+            <div class="posicionamento2">
+                <div class="nov">
+                    <div class="itens"><a href="#">Console Playstation 5</a></div>
+                    <div class="itens2"><a href="#"itens><img class="imgnov" src="assets/imagens/ps5.png" alt="Playstation 5"></a></div>
+                    <div class="preço"><a href="#">R$ 5.000,00 á vista ou 10x s/ juros!</a></div>
+                </div>
+                <div class="nov">
+                    <div class="itens"><a href="#">Console XBOX Series X</a></div>
+                    <div class="itens2"><a href="#"><img class="imgnov" src="assets/imagens/xsx_2.png" alt="Xbox Series X"></a></div>
+                    <div class="preço"><a href="#">R$ 5.000,00 á vista ou 10x s/ juros!</a></div>
+                </div>
+                <div class="nov">
+                    <div class="itens"><a href="#">Nintendo Switch</a></div>
+                    <div class="itens2"><a href="#"><img class="imgnov" src="assets/imagens/nsw.png" alt="Nintendo Switch"></a></div>
+                    <div class="preço"><a href="#">R$ 2.200,00 á vista ou 10x s/ juros!</a></div>
+                </div>
+            </div>
+    </section>
+    <!-- <section class="container-grid">
+        <div class="linha">
+            <img class="novid" src="assets/imagens/DivDest.png" alt="Destaques">
+        </div>
+        <div class="posicionamento2">
+            <DIV *ngFor="let produtos of listaProdutos">
+                <div class="nov">
+                    <div class="itens"><a href="#">{{ produtos.titulo }}</a></div>
+                    <div class="itens2"><a href="#" itens><img class="imgnov" [src]=produtos.imagem alt="Playstation 4"></a>
+                    </div>
+                    <div class="preço"><a href="#">{{ produtos.preco }}</a></div>
+                </div>
+            </DIV>
+        </div>
+    </section> -->
+    <section class="destaques container-grid subcategorias">
+        <div class="linha">
+            <img class="novid" src="assets/imagens/DivDest.png" alt="Destaques">
+        </div>
+        <div class="posicionamento2">
+            <div class="nov">
+                <div class="itens"><a href="#">Console Playstation 4</a></div>
+                <div class="itens2"><a href="#" itens><img class="imgnov" src="assets/imagens/ps4.png"
+                            alt="Playstation 4"></a></div>
+                <div class="preço"><a href="#">R$ 2.500,00 á vista ou 10x s/ juros!</a></div>
+            </div>
+            <div class="nov">
+                <div class="itens"><a href="#">Console XBOX One S</a></div>
+                <div class="itens2"><a href="#"><img class="imgnov" src="assets/imagens/xones.png" alt="Xbox One S"></a>
+                </div>
+                <div class="preço"><a href="#">R$ 2.500,00 á vista ou 10x s/ juros!</a></div>
+            </div>
+            <div class="nov">
+                <div class="itens"><a href="#">Console XBOX One</a></div>
+                <div class="itens2"><a href="#"><img class="imgnov" src="assets/imagens/xone.png" alt="Xbox One"></a></div>
+                <div class="preço"><a href="#">R$ 2.000,00 á vista ou 10x s/ juros!</a></div>
+            </div>
+            <div class="nov">
+                <div class="itens"><a href="#">Nintendo Switch</a></div>
+                <div class="itens2"><a href="#"><img class="imgnov" src="assets/imagens/ntdswitch.png"
+                            alt="Nintendo Switch"></a></div>
+                <div class="preço"><a href="#">R$ 2.200,00 á vista ou 10x s/ juros!</a></div>
+            </div>
+            <div class="nov">
+                <div class="itens"><a href="#">Controle Playstation 4</a></div>
+                <div class="itens2"><a href="#"><img class="imgnov" src="assets/imagens/controlePS4.png"
+                            alt="Controle Playstation 4"></a></div>
+                <div class="preço"><a href="#">R$ 250,00 á vista ou 10x s/ juros!</a></div>
+            </div>
+            <div class="nov">
+                <div class="itens"><a href="#">Controle Playstation 5</a></div>
+                <div class="itens2"><a href="#"><img class="imgnov" src="assets/imagens/controlePS5.png"
+                            alt="Controle Playstation 5"></a></div>
+                <div class="preço"><a href="#">R$ 450,00 á vista ou 10x s/ juros!</a></div>
+            </div>
+        </div>
+    </section>
+<section class="container-grid">
+    <div class="linha">
+        <a href="#"><img class="divSecao2" id="maisItens" src="assets/imagens/DivMostrarMais.png"
+                alt="Mostrar Mais"></a>
+    </div>
+</section>
+<div class="container-grid news">
+    <p>Cadastre seu e-mail e receba em primeira mão as novidades e promoções:</p>
+</div>
+<div class="container-grid news ajuste1">
+    <form #userForm="ngForm" (ngSubmit)="onSubmit()">
+        <label for="email">E-mail:</label>
+        <input class="emailnews" type="email" id="email" name="email" [(ngModel)]="newsModel.email">
+
+        <!-- <button type="button submit" class="btn btn-dark btn btn-secondary btn-lg">Cadastrar</button> -->
+        <button type="button submit" class="btn btn-dark">Cadastrar</button>
+    </form>
+</div>

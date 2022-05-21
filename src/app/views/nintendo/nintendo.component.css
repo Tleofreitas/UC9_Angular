@@ -1,0 +1,50 @@
+.container-grid {
+    max-width: 1833px; /*largura*/
+    margin: 0 auto; /*alinhamento ao centro*/
+    position: relative;
+}
+
+.posicionamento2 {
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+    padding: 15px;
+}
+
+.nov a {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.imgnov { padding: 15px;
+    display: flex;
+
+}
+
+.itens a {text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 36px;
+    color: black;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 45px;
+}
+
+.itens2 a {justify-content: center;
+    flex-direction: row;
+    display: flex;
+}
+
+.preço a {
+    text-decoration: none;
+    text-transform: uppercase;
+    font-family: 'Roboto', sans-serif;
+    font-size: 30px;
+    color: #FF0000;
+    justify-content: center;
+    flex-direction: row;
+    max-height: 40px;
+}

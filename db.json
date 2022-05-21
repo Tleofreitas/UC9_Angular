@@ -1,0 +1,47 @@
+{
+  "users": [
+    {
+      "email": "teste@email.com",
+      "password": "$2a$10$wZBEu2tBFi5ieRGPZWZMo.R/Fn633gKpZy5SiBsiuHtTnwrwgyNPi",
+      "id": 1
+    }
+  ],
+  "produtos": [
+    {
+      "id": 1,
+      "titulo": "Console Playstation 4",
+      "imagem": "assets/imagens/ps4.png",
+      "preco": "R$ 2.500,00 á vista ou 10x s/ juros!"
+    },
+    {
+      "titulo": "Console XBOX One S",
+      "imagem": "assets/imagens/xones.png",
+      "preco": "R$ 2.500,00 á vista ou 10x s/ juros!",
+      "id": 2
+    },
+    {
+      "titulo": "Console XBOX One",
+      "imagem": "assets/imagens/xone.png",
+      "preco": "R$ 2.000,00 á vista ou 10x s/ juros!",
+      "id": 3
+    },
+    {
+      "titulo": "Nintendo Switch",
+      "imagem": "assets/imagens/ntdswitch.png",
+      "preco": "R$ 2.200,00 á vista ou 10x s/ juros!",
+      "id": 4
+    },
+    {
+      "titulo": "Controle Playstation 4",
+      "imagem": "assets/imagens/controlePS4.png",
+      "preco": "R$ 450,00 á vista ou 10x s/ juros!",
+      "id": 5
+    },
+    {
+      "titulo": "Controle Playstation 5",
+      "imagem": "assets/imagens/controlePS5.png",
+      "preco": "R$ 450,00 á vista ou 10x s/ juros!",
+      "id": 6
+    }
+  ]
+}

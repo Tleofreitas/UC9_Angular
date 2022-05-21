@@ -1,0 +1,17 @@
+<div class="container">
+<hr>
+<main>
+    <form class="login" #loginForm="ngForm" (ngSubmit)="onSubmit()">
+        <div>
+            <label for="email">E-mail:</label><br>
+            <input class="campo-label" type="email" name="email" placeholder="Digite seu e-mail" id="email" [(ngModel)]="loginModel.email" required>
+        </div><br>
+        <div class="campo-label">
+            <label for="senha">Senha:</label><br>
+            <input class="campo-label" type="password" name="password" placeholder="Digite sua senha" id="senha" [(ngModel)]="loginModel.password" required>
+        </div><br>
+        <button type="submit" class="btn btn-dark" id="logar">Fazer Login</button>
+    </form> <br>
+    <p *ngIf=" mensagem != '' ">{{ mensagem }}</p>
+</main>
+</div>
